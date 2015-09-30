@@ -50,7 +50,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .carousel-caption{
-    top: 20%;
+    top: 35%;
     text-shadow: 0 1px 10px rgba(0, 0, 0, .6);
 }
 
@@ -104,4 +104,34 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     font-weight: 400;
     color: #ef8b2d;
     letter-spacing: 1px;
+}
+
+.default-bg.blue {
+    background-color: #183c47;
+}
+
+.main-navigation .navbar-default .navbar-nav > li.active > a {
+    color:#a7a9ac;
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a:hover,
+.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+	color: #fff;
+}
+
+
+@media only screen and (max-width : 320px) {
+    .carousel-caption{
+        top: 15%;
+    }
+
+    .carousel-caption h1{
+        color:#fff;
+        font-size: 24px;
+    }
+
+    .carousel-caption p{
+        font-size: 14px;
+        line-height: 18px;
+    }
 }

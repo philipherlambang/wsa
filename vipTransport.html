@@ -97,13 +97,13 @@
                                                         <li><a href="aerialSurvey.html">Aerial Survey</a></li>
                                                         <li><a href="medevac.html">Medevac</a></li>
                                                         <li><a href="luxuryLeisure.html">Luxury Leisure</a></li>
-                                                        <li><a href="#">Special Events</a></li>
-                                                        <li><a href="#">Ground Support</a></li>
+                                                        <li><a href="specialEvents.html">Special Events</a></li>
+                                                        <li><a href="groundSupport.html">Ground Support</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="about.html">About</a></li>
-												<li><a href="#clients">Clients</a></li>
-												<li><a href="#contact">Contact</a></li>
+												<li><a href="index.html#fleet">Fleet</a></li>
+												<li><a href="index.html#contact">Contact</a></li>
 											</ul>
 										</div>
 
@@ -126,11 +126,19 @@
         <!-- section start -->
 		<!-- ================ -->
 		
-			<div class="container-fluid">
-				<div class="row">
-					<img src="images/contoh.jpg" width="100%">
-				</div>
-			</div>
+        <div class="container-fluid">
+            <div class="row">
+                <picture alt="responsive image">
+                     <source src="large.jpg" media="(min-width:1600px), 
+                     (min-resolution: 136dpi) and (min-width:800px)">
+                     <source src="medium.jpg" media="(min-width:800px),
+                     (min-resolution: 136dpi) and (min-width:400px)">
+                     <source src="small.jpg">
+                  <!-- fallback -->
+                  <img src="small.jpg" alt="responsive image">
+                </picture>
+            </div>
+        </div>
 		
 		<!-- section end -->
 
