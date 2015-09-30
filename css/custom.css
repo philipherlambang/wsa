@@ -80,3 +80,28 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	background-color: rgba (203,118,38,0.7) !important;
 /*	border-color: #339BEB;*/
 }
+
+.text-description{
+    font-size: 16px;
+    line-height: 30px;
+    color:#666;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.title{
+    letter-spacing: 2px;
+}
+
+.big-space{
+    margin-top: 50px;
+}
+
+.sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ef8b2d;
+    letter-spacing: 1px;
+}
