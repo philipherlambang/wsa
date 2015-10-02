@@ -15,10 +15,6 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="images/favicon.ico">
 
-		<!-- Web Fonts -->
-<!--		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
-<!--		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>-->
-
 		<!-- Bootstrap core CSS -->
 		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
@@ -27,6 +23,7 @@
 
 		<!-- Plugins -->
 		<link href="css/animations.css" rel="stylesheet">
+        <link href="css/ekko-lightbox.css" rel="stylesheet">
 
 		<!-- Worthy core CSS file -->
 		<link href="css/style.css" rel="stylesheet">
@@ -153,6 +150,44 @@
 					</div>
 				</div>
                 
+                <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+                    <!-- carousel -->
+                    <div class="row space">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <a href="images/ground_big_1.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Ground Support" class="col-sm-3">
+                                    <img src="images/ground_small_1.jpg" class="img-responsive">
+                                </a>
+                                <a href="images/ground_big_2.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Ground Support" class="col-sm-3">
+                                    <img src="images/ground_small_2.jpg" class="img-responsive">
+                                </a>
+                                <a href="images/ground_big_3.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Ground Support" class="col-sm-3">
+                                    <img src="images/ground_small_3.jpg" class="img-responsive">
+                                </a>
+                                <a href="images/ground_big_4.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Ground Support" class="col-sm-3">
+                                    <img src="images/ground_small_4.jpg" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/carousel -->
+                </div>
+                
+                <div class="row visible-xs thumbnails-container-small">
+                    <div class="col-xs-12">
+                        <img src="images/ground_small_1.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12">
+                        <img src="images/ground_small_2.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12">
+                        <img src="images/ground_small_3.jpg" alt="">
+                    </div>
+                    <div class="col-xs-12">
+                        <img src="images/ground_small_4.jpg" alt="">
+                    </div>
+                </div>
+                
 			</div>
 		</div>
 		<!-- section end -->
@@ -166,6 +201,8 @@
 
 		<!-- Modernizr javascript -->
 		<script type="text/javascript" src="plugins/modernizr.js"></script>
+        
+        <script type="text/javascript" src="plugins/ekko-lightbox.js"></script>
 
 		<!-- Isotope javascript -->
 		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>

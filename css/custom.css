@@ -127,7 +127,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .default-bg.blue {
-    background-color: #183c47;
+    background-color: #000;
 }
 
 .main-navigation .navbar-default .navbar-nav > li.active > a {
@@ -227,4 +227,37 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 	color: #ffffff;
 	background-color: #183c47;
 	border-color: #0d2228;
+}
+
+
+ul.thumbnails-carousel {
+    padding: 5px 0 0 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.thumbnails-carousel .center {
+    display: inline-block;
+}
+ul.thumbnails-carousel li {
+    margin-right: 5px;
+    float: left;
+    cursor: pointer;
+}
+.controls-background-reset {
+    background: none !important;
+}
+.active-thumbnail {
+    opacity: 0.4;
+}
+.indicators-fix {
+    bottom: 70px;
+}
+
+.thumbnail-container a{
+    padding: 10px;
+}
+
+.thumbnails-container-small img{
+    padding: 10px !important;
 }
