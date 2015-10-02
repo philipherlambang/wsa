@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 
 });
 
-
+//swipe able bootstrap carousel 
 $(document).ready(function() {  
     //Enable swiping...
     $(".carousel-inner").swipe( {
@@ -43,4 +43,10 @@ $(document).ready(function() {
         //Default is 75px, set to 0 for demo so any distance triggers swipe
         threshold:0
     });
+});
+
+//bootstrap gallery with thumbnails
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
 });
