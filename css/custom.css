@@ -36,7 +36,7 @@
 }
 
 .banner::after{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .header{
@@ -211,12 +211,42 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
     .carousel-caption p{
         font-size: 14px;
-        line-height: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width : 641px) and (max-width : 667px) {
+    .carousel-caption{
+        top: 15%;
+    }
+
+    .carousel-caption h1{
+        color:#fff;
+        font-size: 30px;
+    }
+
+    .carousel-caption p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width : 668px) and (max-width : 736px) {
+    .carousel-caption{
+        top: 15%;
+    }
+
+    .carousel-caption h1{
+        color:#fff;
+        font-size: 30px;
+    }
+
+    .carousel-caption p{
+        font-size: 24px;
     }
 }
 
 .overlay{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .modal-header{
